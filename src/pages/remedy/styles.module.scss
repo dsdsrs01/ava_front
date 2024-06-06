@@ -1,0 +1,44 @@
+.boxContent { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1120px;
+    height: 5rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+
+    .boxContainer {
+        background-color: var(--white);
+        padding: 10px;
+        max-width: 500px;
+        margin-bottom: 10px;
+
+        border-radius: 10px;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                background: var(--azul);
+                color: var(--white);
+                padding: 10px;
+
+                border: none;
+                border-radius: 10px;
+
+                margin-bottom: 10px;
+            }
+        }
+
+        h1 {
+            padding-bottom: 10px;
+            color: var(--azul);
+        }
+    }
+}

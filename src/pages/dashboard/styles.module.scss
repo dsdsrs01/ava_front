@@ -1,0 +1,152 @@
+.boxContent{
+    max-width: 1120px;
+    height: 5rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    
+    
+    .topIconsAddAndActualizar {
+        display: flex;
+
+        .separeteButton {
+            display: flex;
+            gap: 10px;
+        }
+
+        .nenhumItem {
+            display: flex;
+        }
+    }
+
+    h1 {
+        color: var(--white);
+    }
+
+    .boxContainer {
+        border-radius: 10px;
+        background-color: var(--white);
+        color: var(--gray-100);
+        height: 200px;
+        padding: 1rem;
+
+        .boxText {
+            line-height: 35px;
+    
+            p {
+                font-size: 17px;
+                color: var(--black);
+            }
+    
+            .titulo{
+                font-weight: 600;
+            }
+    
+            span {
+                font-weight: 600;
+            }
+        }
+    
+        .boxButton {
+            display: flex;
+            gap: 10px;
+    
+            margin-top: 15px;
+    
+            button {
+                height: 40px;
+                width: 80px;
+                border-radius: 6px;
+                border: 0;
+                color: var(--white);
+                font-weight: 600;
+                font-size: 14px;
+    
+                background-color: var(--red);
+    
+                span {
+                    margin-left: 5px;
+                }
+                &:hover {
+                    transform: scale(1.1);
+                    transition: all 0.5s;
+                }
+            }          
+            .editar {
+                background-color: var(--azul);
+            }   
+        }
+    }
+    .boxSearch {
+        margin-bottom: 20px;
+
+        .BiSearchAlt{
+            position: absolute;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        
+        input {
+            padding: 20px;
+            padding-left: 35px;
+            border-radius: 10px;
+            width: 400px;
+            height: 40px;
+
+            &:hover {
+                border: 3px solid aqua;
+                //transform: scale(1.1);
+                transition: all 0.5s;
+            }
+        }
+    }
+    .boxCard{
+        overflow: hidden;
+        overflow-wrap: break-word;
+
+        .cardBox {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            overflow: hidden;
+            white-space: normal;
+            overflow-wrap: break-word;
+        }
+    }
+    //Card
+
+    .plus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-left: 10px;
+
+        button {
+            border: 0;
+            background: transparent;
+            
+            cursor: pointer;
+        }
+    }
+
+    .boxContentFormRemedy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: centere;
+        padding: 10px;
+        background: var(--white);
+        margin-left: 10px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+            button {
+                
+            }
+        }
+    }
+}
